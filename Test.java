@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
-//hellooooooooo
+
 class Test{
 	static boolean continueLooping = true;
 	static int getMoreCustomers = 1;
@@ -13,7 +13,7 @@ class Test{
     	InputStreamReader r=new InputStreamReader(System.in);    
         BufferedReader br=new BufferedReader(r);    
     	Queue<Customer> customers = new LinkedList<Customer>();
-    	//get customers
+ 
     	while(continueLooping) {
     		System.out.println("Enter new customer:");
         	System.out.println("Enter customer name:");
@@ -36,7 +36,7 @@ class Test{
     	
     	
     	
-      	//print customer queue
+      
     	for(Customer c : customers) {
     		System.out.println(c.name);
     	}
